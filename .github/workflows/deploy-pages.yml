@@ -31,14 +31,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install docs dependencies
-        working-directory: docs
-        run: npm ci
-
       - name: Build docs
         env:
           GITHUB_PAGES: 'true'
-        run: npm run build:docs
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
