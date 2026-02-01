@@ -1,5 +1,9 @@
 import './styles.css';
 
+// Load Ankh components - path resolved at runtime
+const base = import.meta.env.BASE_URL;
+import(/* @vite-ignore */ `${base}ankh/ankh.esm.js`);
+
 const app = document.getElementById('app')!;
 
 app.innerHTML = `
