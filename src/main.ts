@@ -1,7 +1,4 @@
-import { defineCustomElements } from '@ankh-studio/components/loader';
 import './styles.css';
-
-defineCustomElements();
 
 const app = document.getElementById('app')!;
 
