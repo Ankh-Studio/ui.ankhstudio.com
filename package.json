@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@ankh-studio/components": "0.1.x",
-    "@ankh-studio/themes": "0.1.x"
+    "@ankh-studio/themes": "0.2.x"
   },
   "devDependencies": {
     "@types/node": "^25.1.0",
